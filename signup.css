@@ -1,0 +1,147 @@
+
+body {
+	font-family: calibri;
+	font-size: 24px;
+	font-style: italic;
+	color: black;
+    background-color: #efefef;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    color: #535353;
+}
+
+h1 span {
+    color: #05c766;
+    font-size: 50px;
+}
+
+#separator {
+    background-color: #03cc68;
+    height: 3px;
+    width: 270px;
+    margin: 0 auto;
+    border-radius: 50%
+}
+
+.form-div{
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+/*    top: -20px;*/
+}
+
+.text_input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 550px;
+    text-align: center;
+    border: 2px solid #05c766;
+    color: #05c766;
+    outline: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+::-webkit-input-placeholder{
+    color: #05c766;
+}
+
+#button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 550px;
+    text-align: center;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 17px;
+    font-family: arial black;
+    border-radius: 4px;
+    background-color: #05c766;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #05e676;
+}
+
+#button:active {
+    background-color: white;
+    border: 2px solid #05c766;
+    color: #05c766;
+}
+
+#button-ms {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 275px;
+    text-align: center;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 17px;
+    font-family: arial black;
+    border-radius: 4px;
+    background-color: #1c84ed;
+    cursor: pointer;
+}
+
+#button-ms:hover {
+    background-color: #0d69c6;
+}
+
+#button-ms:active {
+    background-color: white;
+    border: 2px solid #05c766;
+    color: #05c766;
+}
+
+#note {
+    color: #05c766;
+    background-color: white;
+    text-align: center;
+    height: auto;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+#button-reg {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 550px;
+    text-align: center;
+    border: 3px solid #05c766;
+    color: #05c766;
+    outline: none;
+    font-size: 17px;
+    font-family: arial black;
+    border-radius: 4px;
+    background-color: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#button-reg:hover {
+    background-color: #05c766;
+    color: white;
+}
+
+
+
+
+
+
+

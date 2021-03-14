@@ -1,0 +1,181 @@
+/* Element styles : */
+header {
+	padding: 50px;
+	text-align: center;
+	background: grey;
+	color: white;
+	font-size: 30px;
+  background-image: url(img/knight2.jpg);
+}
+
+body {
+  font-family: calibri;
+  font-size: 24px;
+  font-style: italic;
+  color: black;
+  background-color: #efefef;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+#home {
+  background-color: #05c766;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* Button styles: */
+.active {
+  background-color: #4CAF50;
+}
+
+.button {
+ display: inline-block;
+ border-radius: 4px;
+ background-color: #f4511e;
+ border: none;
+ color: #FFFFFF;
+ text-align: center;
+ font-size: 20px;
+ padding: 20px;
+ width: 200px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+}
+
+.button span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.3s;
+}
+
+.button span:after {
+ content: '\00bb';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -20px;
+ transition: 0.3s;
+}
+
+.button:hover span {
+ padding-right: 35px;
+}
+
+.button:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+
+/* Hyperlink styles */
+a:link {
+ text-decoration: none;
+}
+
+a:visited {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: none;
+}
+
+/* Body section */
+
+.body-text {
+  padding: 10px 15px 10px 15px;
+  text-align: justify;
+}
+
+#body-h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #535353;
+}
+
+#logo-name {
+  font-family: calibri;
+  font-weight: 30px;
+  color: black;
+  font-size: 45px;
+}
+
+/* Separator line */
+
+#separator {
+  background-color: #05c766;
+  height: 3px;
+  width: 270px;
+  margin: 0 auto;
+  border-radius: 50%
+}
+
+/* Chess Engine */
+
+.chessEngine, .chessTactics {
+    display: flex;
+    margin: 0 auto;
+    border: 4px solid #05c766;
+    border-radius: 25px;
+    
+}
+
+#second_line {
+    font-size: 25px;
+}
+
+.credits {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #5a5a5a;
+    height: 120px;
+    text-align: center;
+    font-family: calibri;
+    font-weight: 900;
+    transition: .2s;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 40%;
+    color: white;
+    font-size: 30px;
+}
+
+.footer:hover {
+    color: #05c766;
+}
+
+
+
+

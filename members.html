@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  	<meta charset="UTF-8">
+	  	<meta name="developers" content="MT Ekleel, Mahian Mahin">
+		<link rel="stylesheet" href="members.css">
+		<header>
+			<h1 id="header-text"> Knights in Shining Armour </h1>
+		</header>
+		<title>Knights in Shining Armour - Members</title>
+        
+        <script>
+            
+            var name = localStorage.getItem("Name");
+            var chess_name = localStorage.getItem("Chess_name");
+            var elo = localStorage.getItem("Elo");
+            
+            var html = "<tr class='row'><td class='data'>%name%</td><td class='data'>%chess_name%</td><td class='data'>%elo%</td></tr>";
+            
+            var newHtml = html.replace('%name%', name);
+            newHtml = newHtml.replace('%chess_name%', chess_name);
+            newHtml = newHtml.replace('%elo%', elo);
+            
+            var table = document.getElementById('table');
+            
+            table.innerHTML += newHtml;
+            
+        </script>
+        
+	</head>
+	<body>
+		<nav>
+			<ul>
+			  <li><a href="index.html" id="home">Home</a></li>
+			  <li><a href="members.html" id="members">Members</a></li>
+			  <li><a href="games.html" id="games">Games</a></li>
+			  <li><a href="about.html" id="about">About Us</a></li>
+			</ul>
+		</nav>
+
+		<h1 id="body-h1">Our knights</h1>
+        <div id="updating_date">Last updated: 3/10/2021</div><br>
+        <div id="members_table">
+            <table align="center" class="members_table" id="table">
+                <thead class="table">
+                    <tr class="table-header">
+                        <th class="data">Name</th>
+                        <th class="data">Chess ID</th>
+                        <th class="data">Elo Rating</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr class="row">
+                        <td class="data">Ashfaqul Majid</td>
+                        <td class="data">ashfaqul00</td>
+                        <td class="data">328</td>
+                    </tr>
+                    
+                    <tr class="row">
+                        <td class="data">MT Ekleel</td>
+                        <td class="data">SZ1991</td>
+                        <td class="data">879</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="data">Sadman Zarif Kazmi</td>
+                        <td class="data">MagicalKazmi</td>
+                        <td class="data">462</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="data">MD Marouf Billah</td>
+                        <td class="data">md7955</td>
+                        <td class="data">609</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="data">Tajwar Majid</td>
+                        <td class="data">Tajwar627</td>
+                        <td class="data">1054</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="data">Mahian Mahin</td>
+                        <td class="data">terminal_13</td>
+                        <td class="data">822</td>
+                    </tr>
+
+<!--                    
+                    <tr class="row">
+                        <td class="data">%name%</td>
+                        <td class="data">%chess_name%</td>
+                        <td class="data">%elo%</td>
+                    </tr>
+-->
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <a href="signup.html" target="blank">
+            <button class="signup_btn">Become one of our knights</button><br><br>
+        </a>
+	</body>
+</html>
+
+
+
+
+
+
