@@ -163,25 +163,26 @@ a:hover {
     padding: 10px;
     height: 60px;
     width: 260px;
-    background-color: #05c766;
-    color: white;
+    background-color: none;
+/*    background-color: #05c766;*/
+    color: #05c766;
     font-family: arial black;
     font-size: 15px;
-    border: none;
+    border: 3px solid #05c766;
     transition: .2s;
     text-decoration: none;
     outline: none;
-    position: absolute;
     top: 260px;
     left: 1251px;
 }
 
 .signup_btn:hover {
-    background-color: #00db6e;
+    background-color: #05c766;
     cursor: pointer;
     border: none;
     text-decoration: none;
     outline: none;
+    color: white;
 }
 
 .signup_btn:active {
